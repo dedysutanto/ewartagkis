@@ -6,20 +6,34 @@
     <group android:checkableBehavior="single">
         <item
                 android:id="@+id/nav_jadwal_ibadah"
-                android:icon="@drawable/ic_favorite_border_red"
+                android:icon="@drawable/ic_favorite_red"
                 android:title="Jadwal Ibadah"/>
         <item
                 android:id="@+id/nav_jadwal_pendeta"
-                android:icon="@drawable/smiley_border"
+                android:icon="@drawable/ic_sentiment_satisfied"
                 android:title="Jadwal Pendeta"/>
         <item
-                android:id="@+id/nav_previous"
-                android:icon="@drawable/previous"
-                android:title="eWarta Minggu Lalu"/>
-        <item
                 android:id="@+id/nav_hubungi_kami"
-                android:icon="@drawable/contact"
+                android:icon="@drawable/ic_call"
                 android:title="Hubungi Kami"/>
+        <item
+                android:id="@+id/nav_majalah_pelangi"
+                android:icon="@drawable/ic_action_pelangi"
+                android:title="Majalah Pelangi"/>
+        <item
+                android:id="@+id/nav_ewarta"
+                android:icon="@drawable/ic_action_pelangi"
+                android:title="eWarta"/>
+        <item
+                android:id="@+id/nav_second"
+                android:icon="@drawable/ic_action_pelangi"
+                android:title="Second"/>
+<!--
+        <item
+                android:id="@+id/nav_event_tahunan"
+                android:icon="@drawable/ic_action_schedule"
+                android:title="Event Tahunan"/>
+-->
 
     </group>
 
@@ -37,4 +51,5 @@
         </menu>
     </item>
     -->
+
 </menu>

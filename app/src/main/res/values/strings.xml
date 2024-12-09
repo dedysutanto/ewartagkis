@@ -7,15 +7,22 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_ewarta">eWarta</string>
+    <string name="menu_pelangi">Majalah Pelangi</string>
+    <string name="menu_ibadah">Jadwal Ibadah</string>
+    <string name="menu_pendeta">Jadwal Pendeta</string>
+    <string name="menu_hubungi">Hubungi Kami</string>
+    <string name="menu_liturgi">Liturgi</string>
+    <string name="menu_katekisasi">Daftar Katekisasi</string>
+    <string name="menu_bkj">Buku Kehidupan Jemaat</string>
+    <string name="menu_youtube">Youtube</string>
+    <string name="menu_website">Website</string>
     <string name="title_activity_jadwal_ibadah">Jadwal Ibadah</string>
     <string name="title_activity_jadwal_pendeta">Jadwal Pendeta</string>
     <string name="title_activity_hubungi_kami">Hubungi Kami</string>
+    <string name="title_activity_event_tahunan">Event Tahunan - Natal</string>
+    <string name="title_activity_katekisasi">Daftar Katekisasi</string>
+    <string name="title_activity_website">Website</string>
     <string name="title_nomer_telepon">Nomer Telepon</string>
     <string name="nomer_telepon">(021) 537 0366</string>
     <string name="title_email_address">Alamat Email</string>
@@ -30,9 +37,11 @@
 
     <string name="pendeta_yosias">Pdt. Yosias Nugroho Wijaya</string>
     <string name="pendeta_manda">Pdt. Manda Laika Dandel</string>
-    <string name="pendeta_marfan">Pdt. Marfan F. Nikijulu</string>
+    <string name="pendeta_marfan">Pdt. Marfan F. Nikijuluw Tahamata</string>
     <string name="pendeta_yonatan">Pdt. Yonatan Wijayanto</string>
     <string name="pendeta_agus">Pdt. Em. Agus Susanto</string>
+    <string name="pendeta_koordinasi">Koordinasi Pendeta</string>
+
 
     <string name="jam_6">06:00</string>
     <string name="jam_8">08:00</string>
@@ -42,6 +51,24 @@
 
     <string name="ibadah">Ibadah</string>
 
-    <string name="copyright">GKI Serpong 2019 v2.6</string>
+    <string name="ibadah_umum">Ibadah Umum Minggu</string>
+    <string name="jadwal_ibadah_umum">06:00; 08:00; 10:30; 17:00 WIB</string>
+    <string name="ibadah_anak">Ibadah Anak Minggu</string>
+    <string name="jadwal_ibadah_anak">06:00; 08:00; 10:30; 17:00 WIB</string>
+    <string name="ibadah_tunas">Ibadah Tunas Minggu</string>
+    <string name="jadwal_ibadah_tunas">07:30 WIB</string>
+    <string name="ibadah_remaja">Ibadah Remaja Minggu</string>
+    <string name="jadwal_ibadah_remaja">08:00 WIB</string>
+    <string name="persekutuan_senior">Persekutuan Senior Sabtu</string>
+    <string name="jadwal_persekutuan_senior">Sabtu minggu kedua, 16:00 WIB</string>
+    <string name="jadwal_kantor_gereja">Jadwal Kantor Gereja</string>
+    <string name="jadwal_kantor_gereja_minggu">Minggu (07.00 &#8211; 12.00 &amp; 16.30 &#8211; 18.30 WIB)</string>
+    <string name="jadwal_kantor_gereja_selasa">Selasa &#8211; Sabtu (08.00 &#8211; 16.00 WIB)</string>
+
+
+    <string name="gkis">GKI Serpong</string>
+    <string name="ewarta_title">eWarta\nGKI Serpong</string>
+
+    <string name="copyright">GKI Serpong 2019-%d %s</string>
 
 </resources>

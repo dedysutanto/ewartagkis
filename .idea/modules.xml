@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eWartaGKIS.iml" filepath="$PROJECT_DIR$/eWartaGKIS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eWartaGKIS.app.unitTest.iml" />
     </modules>
   </component>
 </project>

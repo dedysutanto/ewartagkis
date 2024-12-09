@@ -1,36 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.gkiserpong.ewartagkis">
+        package="org.gkiserpong.ewartagkis">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
     <application
             android:allowBackup="true"
+            android:fullBackupContent="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <!--
-        <activity android:name=".PreviousActivity">
-        </activity>
-        -->
-        <activity android:name=".JadwalPendeta1Activity">
-        </activity>
-        <activity android:name=".JadwalIbadah1Activity">
-        </activity>
-        <activity android:name=".HubungiKami1Activity">
-        </activity>
-        <activity
-                android:name=".MainActivity"
-                android:label="@string/app_name"
-                android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+        <activity android:name=".SitusActivity" android:exported="false"/>
+        <activity android:name=".KatekisasiActivity" android:exported="false"/>
+        <activity android:name=".LiturgiActivity" android:exported="false"/> <!-- <activity android:name=".SecondActivity"/> -->
+        <activity android:name=".EwartaActivity" android:exported="false"/>
+        <activity android:name=".MajalahPelangiActivity" android:exported="false"/> <!-- <activity android:name=".EventTahunanActivity" /> -->
+        <activity android:name=".HubungiKami1Activity" android:exported="false"/>
+        <activity android:name=".JadwalPendeta1Activity" android:exported="false"/>
+        <activity android:name=".JadwalIbadah1Activity" android:exported="false"/>
+        <activity android:name=".BukuKehidupanActivity" android:exported="false"/>
+        <activity android:name=".KatekisasiActivity" android:exported="false"/>
+        <activity android:name=".WebsiteActivity" android:exported="false"/>
+        <activity
+                android:name=".SecondActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                        android:host="gkiserpong.org"
+                        android:pathPattern="/ewarta"
+                        android:scheme="http" />
             </intent-filter>
         </activity>
+        <meta-data
+                android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="false" />
     </application>
 
 </manifest>
